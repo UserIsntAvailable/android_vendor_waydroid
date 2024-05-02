@@ -4,7 +4,6 @@
   <!-- WayDroid -->
   <project path="device/waydroid/waydroid" name="WayDroid/android_device_waydroid_waydroid" remote="ghub" revision="refs/heads/lineage-18.1" />
   <project path="hardware/waydroid" name="WayDroid/android_hardware_waydroid" remote="ghub" revision="refs/heads/lineage-18.1" />
-  <project path="vendor/extra" name="WayDroid/android_vendor_waydroid" remote="ghub" revision="refs/heads/lineage-18.1" />
   <project path="packages/apps/WaydroidUpdater" name="WayDroid/android_packages_apps_WaydroidUpdater" remote="ghub" revision="refs/heads/lineage-18.1" />
 
   <!-- Audio -->
@@ -29,5 +28,9 @@
 
   <!-- VNDK -->
   <project path="prebuilts/vndk/v29" name="WayDroid/android_prebuilts_vndk_v29" groups="pdk" clone-depth="1" remote="ghub" revision="refs/heads/lineage-18.1" />
+
+  <!-- WPA -->
+  <project path="vendor/extra" name="UserIsntAvailable/android_vendor_waydroid" remote="ghub" revision="refs/heads/lineage-wpa-18.1" />
+  <project path="external/wpa-suppliant" name="LineageOS/android_external_wpa_supplicant_8" remote="ghub" revision="refs/heads/lineage-18.1" />
 
 </manifest>
